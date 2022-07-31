@@ -1,0 +1,875 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(to top, black, black);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.main{
+    width: 100%;
+    height: auto;
+    
+    
+}
+#home{
+    scroll-margin-top: 125px;
+}
+#about{
+    scroll-margin-top: 90px;
+}
+#education{
+    scroll-margin-top: 65px;
+}
+#skill{
+    scroll-margin-top: 80px;
+}
+#team{
+    scroll-margin-top: 70px;
+}
+#contact{
+    scroll-margin-top: 75px;
+}
+.logo{
+     margin-top: 1.2%;
+     float: left;
+     margin-left: 2%;
+     color: white;
+     font-size: 130%;
+}
+.log{
+    color: aquamarine;
+}
+.menu{
+    margin-right: 1%;
+    padding: 1.2%;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: 0.4s;
+    
+
+}
+.menu:hover{
+    color: black;
+    background-color: aquamarine;
+    border-radius: 15px;
+
+}
+.nav{
+    
+    float: right;
+    top: 0%;
+    z-index: 9999;
+    margin-top: 2%;
+    width: 40%;
+
+    
+}
+.fix{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 2%;
+}
+.home{
+    margin-left: 8%;
+    color: white;
+    margin-top: 15%;
+    
+}
+ .h{
+    font-size: 100%;
+    letter-spacing: 2px;
+
+}
+.name{
+    font-size: 200%;
+    color: aquamarine;
+}
+.btn{
+    padding: 0.1%;
+    border-radius: 5px;
+    background-color: aquamarine;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.btn:hover{
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.about{
+    margin-top: 15%;
+    padding-left: 19%;
+    color: black;
+    background-color: white;
+    padding-bottom: 3%;
+    padding-top: 2%;
+
+}
+.a{
+    font-size: 200%;
+    text-align: center;
+    
+}
+.a6{
+    font-size: 80%;
+    margin-left: 29%;
+    margin-bottom: 2%;
+    color: rgb(227, 24, 58);
+    
+}
+#typ{
+    font-size: 100%;
+    margin-left: 2%;
+}
+.fre{
+    color: rgb(227, 24, 58);
+}
+.fresh{
+    color: aquamarine;
+}
+.ai{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 0.4%;
+    
+}
+.ap{
+    font-size: 110%;
+}
+.vam{
+    color: rgb(227, 24, 58);
+    font-weight: bold;
+}
+.ab{
+    margin-top: 1.2%;
+    padding: 0.2%;
+    background-color: aquamarine;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.ab:hover{
+    background-color: black;
+    color: white;
+
+}
+.education{
+    color: white;
+
+}
+.ed{
+    font-size: 200%;
+    text-align: center;
+    margin-top: 2%;
+
+}
+.e6{
+    font-size: 60%;
+    text-align: center;
+    margin-bottom: 3%;
+    color: aquamarine;
+
+}
+.cards{
+    margin-bottom: 3%;
+}
+.card1{
+    width: 25%;
+    background-color: rgb(250, 241, 241, 0.3);
+    color: white;
+    padding: 1%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 7%;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.card1:hover{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px aquamarine;
+
+}
+.card2{
+    width: 25%;
+    background-color: rgb(250, 241, 241, 0.3);
+    color: white;
+    padding: 1%;
+    float: left;
+    margin-right: 2%;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.card2:hover{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px aquamarine;
+
+}
+.card3{
+    width: 25%;
+    background-color: rgb(250, 241, 241, 0.3);
+    color: white;
+    padding: 1%;
+    float: left;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.card3:hover{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px aquamarine;
+
+}
+.g{
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+.int{
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+.mat{
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+.d{
+    margin-left: 5%;
+    line-height: 1.7;
+}
+.skill{
+    margin-top: 25%;
+    color: black;
+    background-color: white;
+    padding: 3%;
+    padding-bottom: 10%;
+    
+    
+}
+.s{
+    text-align: center;
+    font-size: 200%;
+}
+.s6{
+    text-align: center;
+    font-size: 60%;
+    color: rgb(227, 24, 58);
+    margin-bottom: 2%;
+    
+}
+.sk{
+    float: left;
+}
+.sh{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.sp{
+    border: 2px solid;
+    padding: 2%;
+    width: 80%;
+    background-color: lightgrey;
+    line-height: 1.3;
+    
+}
+.container{
+    margin-top: 1.6%;
+    margin-left: 60%;
+    line-height: 1.82;
+}
+.cont{
+    border: 1px solid;
+    background-color: lightgray;
+    margin-bottom: 2%;
+    border-radius: 100px;
+}
+.cont1{
+    border: 1px solid;
+    background-color: lightgray;
+    margin-bottom: 2%;
+    border-radius: 100px;
+}
+.cont2{
+    border: 1px solid;
+    background-color: lightgray;
+    margin-bottom: 2%;
+    border-radius: 100px;
+}
+.cont3{
+    border: 1px solid;
+    background-color: lightgray;
+    margin-bottom: 2%;
+    border-radius: 100px;
+}
+.cont4{
+    border: 1px solid;
+    background-color: lightgray;
+    border-radius: 100px;
+}
+.html{
+    background-color: burlywood;
+    width: 95%;
+    border-radius: 100px;
+}
+.css{
+    background-color: blanchedalmond;
+    width: 90%;
+    border-radius: 100px;
+}
+.js{
+    background-color: aquamarine;
+    width: 75%;
+    border-radius: 100px;
+}
+.linux{
+    background-color: cornflowerblue;
+    width: 40%;
+    border-radius: 100px;
+}
+.ms{
+    background-color: greenyellow;
+    width: 86%;
+    border-radius: 100px;
+}
+.team{
+    color: white;
+    margin-bottom: 30%;
+
+}
+.mt{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 3%;
+}
+.mt6{
+    text-align: center;
+    font-size: 60%;
+    margin-bottom: 2%;
+    color: aquamarine;
+}
+.lak{
+    border: 2px solid;
+    width: 25%;
+    float: left;
+    background-color: rgb(250, 241, 241, 0.3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 7%;
+    transition: 0.4s;
+}
+.lak:hover{
+    background-color: aquamarine;
+    color: black;
+
+}
+.lk{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2%;
+    margin-left: 22%;
+    margin-top: 5%;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: aquamarine;
+}
+.ls{
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.l6{
+    text-align: center;
+    font-size: 80%;
+    line-height: 1.5;
+    margin-bottom: 3%;
+}
+.raj{
+    border: 2px solid;
+    width: 25%;
+    float: left;
+    background-color: rgb(250, 241, 241, 0.3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s;
+    margin-left: 5%;
+}
+.rj{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2%;
+    margin-left: 22%;
+    margin-top: 5%;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: aquamarine;
+
+}
+.r6{
+    text-align: center;
+    font-size: 80%;
+    line-height: 1.5;
+    margin-bottom: 3%;
+}
+.rh{
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.raj:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.bhu{
+    border: 2px solid;
+    width: 25%;
+    float: left;
+    background-color: rgb(250, 241, 241, 0.3);
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+    border: none;
+    margin-left: 5%;
+}
+.bh{
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.bi{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2%;
+    margin-left: 22%;
+    margin-top: 5%;
+    border: 1px solid;
+    border-color: aquamarine;
+    border-radius: 50%;
+}
+.b6{
+    text-align: center;
+    font-size: 80%;
+    line-height: 1.5;
+    margin-bottom: 3%;
+}
+.bhu:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.contact{
+    color: black;
+    background-color: white;
+    padding: 2%;
+    padding-bottom: 5%;
+    bottom: 0;
+}
+.ch{
+    text-align: center;
+    font-size: 200%;
+
+}
+.c6{
+    text-align: center;
+    font-size: 60%;
+    color: rgb(227, 24, 58);
+    margin-bottom: 3%;
+
+}
+.get{
+    float: left;
+    border: 2px solid;
+    padding: 2%;
+}
+.geth{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.getp{
+    font-size: 100%;
+    margin-bottom: 1%;
+}
+.get6{
+    font-size: 100%;
+    line-height: 1.5;
+}
+.aget{
+    float: left;
+}
+.get61{
+    float: left;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+.social{
+    margin-left: 55%;
+    padding: 3%;
+    border: 2px solid;
+}
+.sch{
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+.anc{
+    margin-top: 21%;
+    
+}
+.ins, .fb, .twitter, .linke{
+    padding: 3%;
+    text-decoration: none;
+    color: black;
+}
+.ins:hover, .fb:hover, .twitter:hover, .linke:hover{
+    background-color: aquamarine;
+}
+.form{
+    margin-top: 2%;
+    text-decoration: none;
+    
+}
+.form1{
+    text-decoration: none;
+}
+.form1:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.foot{
+    color: white;
+    text-align: center;
+    font-size: 80%;
+
+}
+.ft{
+    color: white;
+    text-align: center;
+
+}
+.last{
+    color: aquamarine;
+}
+.love{
+    color: aquamarine;
+}
+@media screen and (min-width: 360px){
+    
+    .nav{
+        float: left;
+        width: 100%;
+        margin-left: 2%;
+    }
+    .menu{
+        padding: 0.9%;
+        font-size: 93%;
+    }
+    .menu:hover{
+        padding: 1.2%;
+    }
+    .home{
+        margin-top: 25%;
+    }
+    .about{
+        padding-top: 5%;
+        padding-left: 0%;
+        background-color: white;
+        
+        
+    }
+    .a{
+        font-size: 150%;
+        text-align: center;
+        margin-left: 0;
+
+    }
+    .a6{
+        font-size: 60%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .ai{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        width: 50%;
+        border: 1px solid;
+        border-radius: 50%;
+        border-color: rgb(227, 24, 58);
+    }
+    .ap{
+        font-size: 100%;
+        margin-left: 2%;
+    }
+    .ab{
+        margin-left: 1%;
+    }
+.ed{
+    font-size: 150%;
+}
+.card1{
+    float: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+}
+.card2{
+    float: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.card3{
+    float: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.s{
+    font-size: 150%;
+
+}
+.sk{
+    float: none;
+}
+.sh{
+    font-size: 100%;
+}
+.sp{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+.lak{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 10%;
+    
+
+}
+.lk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.raj{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 10%;
+}
+.rj{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.bhu{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 10%;
+}
+.bi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.get{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 8%;
+    margin-bottom: 5%;
+}
+.aget{
+    text-decoration: none;
+}
+.social{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 2%;
+}
+.ins, .fb, .twitter, .linke{
+    padding: 0;
+    padding: 1.2%;
+}
+.sch{
+    font-size: 100%;
+}
+
+#home{
+    scroll-margin-top: 125px;
+}
+#about{
+    scroll-margin-top: 90px;
+}
+#education{
+    scroll-margin-top: 65px;
+}
+#skill{
+    scroll-margin-top: 80px;
+}
+#team{
+    scroll-margin-top: 70px;
+}
+#contact{
+    scroll-margin-top: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
